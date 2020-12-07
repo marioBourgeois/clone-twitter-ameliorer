@@ -3,8 +3,6 @@ body {
   background-color: rgb(21, 32, 43);
 }
 
-
-
 span#navmenu {
   position: fixed;
   top: 25px;
@@ -21,7 +19,6 @@ span#navmenu2 {
   right: 0;
   padding: 4px;
   margin: 4px;
-  ;
 }
 
 span#motaccueil {
@@ -49,6 +46,9 @@ a:hover {
 .row {
   margin: 30px;
 }
+.row2 {
+  margin: 30px;
+}
 
 .border {
   justify-content: space-between;
@@ -60,6 +60,14 @@ a:hover {
   margin: 0 auto;
   text-align: center;
   margin-top: 0px;
+}
+.texttweet3 {
+  position: relative;
+  top: -90px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 0px;
+ 
 }
 .etoile {
   width: 25px;
@@ -73,8 +81,19 @@ span#logosimp {
 
 span#logosimp2 {
   position: relative;
+}
+
+span#logosimp3 {
+  position: relative;
   right: -15px;
-  top: 100px;
+}
+
+span#logosimp4 {
+  position: absolute;
+  
+  margin-top: 90px;
+  top: 280px;
+  margin-left: 200px;
 }
 
 div#iconetoile {
@@ -113,16 +132,13 @@ p {
 
 .rounded-circle {
   border-radius: 30%;
-  position: absolute;
-  margin-top: -140px;
-  margin-left: -10px;
 }
 
 .infoprofil {
   text-align: left;
   font-size: 15px;
   position: absolute;
-  top: 250px;
+  top: 110px;
   left: 130px;
 }
 
@@ -134,3 +150,12 @@ a {
   margin-bottom: 10px;
 }
 
+span#Tweetnoir {
+  color: black;
+}
+
+.webapp {
+  color: white;
+}
+
+.simplon {margin-left: 10px;}
